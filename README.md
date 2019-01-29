@@ -1,13 +1,13 @@
-cmsrel CMSSW_10_2_3
+    cmsrel CMSSW_10_2_3
 
-cd CMSSW_10_2_3/src
+    cd CMSSW_10_2_3/src
 
-cmsenv
+    cmsenv
 
-git clone https://github.com/lviliani/LHEWeightsReader.git
+    git clone https://github.com/lviliani/LHEWeightsReader.git
 
-scram b
+    scram b
 
-cd LHEWeightsReader/test/
+    cd LHEWeightsReader/test/
 
-cmsRun lheWeightReader_cfg.py inputFiles="MINIAOD_FILE"
+    cmsRun lheWeightReader_cfg.py inputFiles="MINIAOD_FILE"
