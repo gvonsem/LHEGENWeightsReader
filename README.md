@@ -65,3 +65,16 @@ voms-proxy-init -voms cms
 
 cmsRun lheWeightDumper_cfg.py inputFiles="root://cms-xrd-global.cern.ch//store/mc/RunIIAutumn18MiniAOD/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/270000/FFDD758E-EA75-A34C-9941-FB06C26375A2.root"
 ```
+
+In case one needs to check the available object collections present in MiniAOD (relevant to retrieve the weight information):
+```
+edmDumpEventContent root://cms-xrd-global.cern.ch//store/mc/RunIIAutumn18MiniAOD/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/270000/FFDD758E-EA75-A34C-9941-FB06C26375A2.root
+```
+with example output
+```
+  Type                                  Module                      Label             Process   
+  ----------------------------------------------------------------------------------------------
+  GenEventInfoProduct                   "generator"                 ""                "SIM"     
+  LHEEventProduct                       "externalLHEProducer"       ""                "SIM" 
+  (...)
+```
