@@ -1,8 +1,10 @@
+# LHEGENWeightsReader
+
 Based on [repository](https://github.com/lviliani/LHEWeightsReader) of Lorenzo Viliani to read and dump LHE weights (scale, PDF) from MiniAOD files, and extended to include functionality to read and dump GEN weights (parton shower)
 
 The following instructions were tested on lxplus.
 
-# Installation
+## Installation
 
 ```
 export SCRAM_ARCH=slc7_amd64_gcc700  
@@ -16,7 +18,7 @@ scram b
 cd LHEGENWeightsReader/test/
 ```
 
-# Running
+## Running
 
 ```
 cd LHEGENWeightsReader/test/
@@ -46,7 +48,7 @@ Script to print out (per event) the values of the GEN weights (PS) in GenEventIn
 cmsRun genWeightDumper_cfg.py inputFiles="MINIAOD_FILE"
 ```
 
-# Example accessing MiniAOD remotely
+## Example accessing MiniAOD remotely
 
 In order to read a file found in DAS remotely, one can make use of the [Xrootd service](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookXrootdService).
 ```
