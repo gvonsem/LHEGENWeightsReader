@@ -22,13 +22,13 @@ cd LHEGENWeightsReader/test/
 cd LHEGENWeightsReader/test/
 ```
 
-Script to print out (per run) the header of the LHERunInfoProduct, to see which LHE weights (scale, PDF) are available in the file.
+Script to print out (per run) the header of the LHERunInfoProduct, to see which LHE weights (hard scale, PDF) are available in the file.
 
 ```
 cmsRun lheWeightReader_cfg.py inputFiles="MINIAOD_FILE"
 ```
 
-Script to print out (per event) the weights in LHEEventProduct, to see the values of the LHE weights (scale, PDF) available in the file.
+Script to print out (per event) the values of the LHE weights (hard scale, PDF) in LHEEventProduct.
 
 ```
 cmsRun lheWeightDumper_cfg.py inputFiles="MINIAOD_FILE"
@@ -40,7 +40,7 @@ Script to print out (per lumisection) the weight names in GenLumiInfoHeader, to 
 cmsRun genWeightReader_cfg.py inputFiles="MINIAOD_FILE"
 ```
 
-Script to print out (per event) the weights in GenEventInfoProduct, to see the values of the GEN weights (PS) available in the file.
+Script to print out (per event) the values of the GEN weights (PS) in GenEventInfoProduct.
 
 ```
 cmsRun genWeightDumper_cfg.py inputFiles="MINIAOD_FILE"
