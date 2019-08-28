@@ -1,6 +1,12 @@
 # LHEGENWeightsReader
 
-Based on [repository](https://github.com/lviliani/LHEWeightsReader) of Lorenzo Viliani to read and dump LHE weights (scale, PDF) from MiniAOD files, and extended to include functionality to read and dump GEN weights (parton shower)
+Based on [repository](https://github.com/lviliani/LHEWeightsReader) of Lorenzo Viliani to read and dump LHE weights (scale, PDF) from MiniAOD files, and extended to include functionality to read and dump GEN weights (parton shower).
+
+The original functionality is documented in the twikis: 
+- [LHE weight reader](https://twiki.cern.ch/twiki/bin/view/CMS/HowToPDF#How_to_retrieve_LHE_weight_value)
+- [LHE weight dumper](https://twiki.cern.ch/twiki/bin/view/CMS/HowToPDF#How_to_dump_which_LHE_weights_ar)
+and
+- [accessing PS weights](https://twiki.cern.ch/twiki/bin/view/CMS/HowToPDF#Parton_shower_weights)
 
 The following instructions were tested on lxplus.
 
