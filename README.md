@@ -2,7 +2,7 @@ Based on [repository](https://github.com/lviliani/LHEWeightsReader) of Lorenzo V
 
 The following instructions were tested on lxplus.
 
-#Installation
+# Installation
 
 ```
 export SCRAM_ARCH=slc7_amd64_gcc700  
@@ -16,7 +16,7 @@ scram b
 cd LHEGENWeightsReader/test/
 ```
 
-#Running
+# Running
 
 ```
 cd LHEGENWeightsReader/test/
@@ -46,7 +46,7 @@ Script to print out (per event) the weights in GenEventInfoProduct, to see the v
 cmsRun genWeightDumper_cfg.py inputFiles="MINIAOD_FILE"
 ```
 
-#Example ro accessing MiniAOD remotely
+# Example accessing MiniAOD remotely
 
 In order to read a file found in DAS remotely, one can make use of the [Xrootd service](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookXrootdService).
 ```
