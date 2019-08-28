@@ -50,7 +50,7 @@ cmsRun genWeightDumper_cfg.py inputFiles="MINIAOD_FILE"
 
 ## Example accessing MiniAOD remotely
 
-In order to read a file found in DAS remotely, one can make use of the [Xrootd service](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookXrootdService).
+In order to read a file found in [DAS](https://cmsweb.cern.ch/das/) remotely, one can make use of the [Xrootd service](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookXrootdService).
 ```
 # create proxy
 voms-proxy-init -voms cms
